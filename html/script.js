@@ -57,5 +57,4 @@ function ToggleText(cardSel) {
         $(activeCard).toggle();
         $(cardSel).toggle();
     }
-    // $(cardSel).toggle();
 }
