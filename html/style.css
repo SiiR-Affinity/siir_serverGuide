@@ -13,7 +13,7 @@
     height: 80vh;
     padding: 20px;
     font-family: 'Roboto', sans-serif;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
     margin: auto;
     opacity: 0.9;
@@ -71,7 +71,7 @@
 }
 
 .card-title > span {
-    margin-left: 2em;
+    margin-left: 1em;
 }
 
 .card-info {
@@ -88,24 +88,27 @@
     padding-bottom: 0.8em;
 }
 
+.card-text-wrap {
+    display: flex;
+    justify-content: center;
+}
+
 .card-text {
     display: none;
     text-align: left;
     margin-top: 1rem;
 }
 
+.card-text > h2 {
+    text-align: center;
+    margin: 2rem 0 2rem 0;
+    font-size: 1.5rem;
+}
+
 .card-text > li {
-    background-color: rgba(0, 0, 0, 0.3);
-    /* box-shadow: 1px 5px 15px -11px rgba(0,0,0,1); */
+    background-color: rgba(99, 110, 114, 0.8);    /* box-shadow: 1px 5px 15px -11px rgba(0,0,0,1); */
     border: 1px solid black;
     margin-bottom: 0.5rem;
     padding: 0.8rem;
-}
-
-#card-2-text {
-    grid-column-start: 2;
-}
-
-#card-3-text {
-    grid-column-start: 3;
+    /* max-width: 40%; */
 }
